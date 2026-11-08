@@ -15,6 +15,3 @@ I used a AS6C4008-55PCN SRAM.
 
 As this Apple II was built from scratch - and it needed wider traces to avoid possible transfer errors - the DRAM memory was put aside in a board. So switching to SRAM was simpler, just remaking a board. As DRAM signals RAS and CAS are set with the matrix lower and higher address, this RAS first address must be latched, to produce a full address along CAS0, CAS1, CAS2. AS SRAM has a Databus-In and Databus-Out i to not expose Databus-Out. 
 
-
-
-So its technically possible to scrap all the DRAM chips from an original Apple II (!) and put a SRAM chip (!) in the middle but maybe is not okay.
