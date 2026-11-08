@@ -5,7 +5,9 @@ to the DRAM board. Luckly they worked fine at the first, in 2021; 2 years later 
 first i thought - oh maybe its the TSR cassete cable, then i try swapping the cables! thinking cables were spoiled, then trying find a mono cable instead stereo etc., just at the end, when i ran a memory test that is included somewhere in Apple II ROM code i understood these chips were no longer reliable...
 
 The command for memory check was:
+
 CALL -151
+
 C050 C053 C054 C057 N 265:FF N 266<265.BFFEM 266<265.BFFEV 265:0 N 266<265.BFFEM 266<265.BFFEV 34:14 
 
 So the year before i built a IBM PC XT from scratch with a CGA Card, and i decided to use SRAM instead of DRAM chips, so i thought that this was the next step for the Apple II.
